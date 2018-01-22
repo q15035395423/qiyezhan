@@ -33,7 +33,6 @@ html,body{
     box-sizing: border-box;
     background: #fff;
     overflow: hidden;
-    margin-bottom: 100px;
 }
 .banner-son{
     width:100%;
@@ -178,7 +177,39 @@ html,body{
     background: #37C58A;
     color:#fff;
 }
-
+.neikuan{
+    width:1160px;
+    height:auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.btn1{
+    width: 50%;
+    float: left;
+}
+.btn1 > a{
+    width: 600px;
+    height: 300px;
+    display: block;
+}
+.btn1 > a > img{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    width: 50%;
+    float: left;
+}
+.btn > .wz{
+    padding: 5px 0;
+    margin-left: 200px;
+}
+.btn > .wz > p{
+    margin: 8px 0;
+    line-height: 1.2;
+    font-size: 14px;
+    color: inherit;
+}
 
 
 .wenben{
@@ -193,10 +224,6 @@ html,body{
     box-sizing: border-box;
     margin-right: 34px;
 }
-
-
-
-
 .foot{
     margin:5px auto;
     width:1326px;
